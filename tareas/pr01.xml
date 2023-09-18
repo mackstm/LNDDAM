@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+  <libro categoria = "novela">
+    <autor></autor>
+    <titulo></titulo>
+    <editorial>Santillana</editorial>
+  </libro>
+  
+  <libro categoria = "cocina">
+    <autor></autor>
+    <titulo></titulo>
+    <editorial>SM</editorial>
+  </libro>
+  
+  <libro categoria = "programacion">
+    <autor></autor>
+    <titulo></titulo>
+    <editorial>SM</editorial>
+  </libro>
+  
+  <libro categoria = "programacion">
+    <autor></autor>
+    <titulo></titulo>
+    <editorial>SM</editorial>
+  </libro>
+</libros>
