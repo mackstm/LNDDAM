@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE planetas SYSTEM "dtd_external_jm.dtd">
+
+<planetas>
+<nombre>Venus</nombre>
+<nombre>Marte</nombre>
+</planetas>
