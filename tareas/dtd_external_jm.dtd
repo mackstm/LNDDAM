@@ -1,2 +1,0 @@
-<!ELEMENT planetas (nombre)+>
-<!ELEMENT nombre (#PCDATA)>

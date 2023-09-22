@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE clases [
+<!ELEMENT clases (clase+)>
+<!ELEMENT clase (pizarra?, profesor+, alumno+)> 
+<!ELEMENT pizarra (#PCDATA)>
+<!ELEMENT profesor (nombre-p, apellidos-p?)>
+<!ELEMENT alumno (nombre-a, apellidos-a)>
+<!ELEMENT nombre-p (#PCDATA)>
+<!ELEMENT apellidos-p (#PCDATA)>
+<!ELEMENT nombre-a (#PCDATA)>
+<!ELEMENT apellidos-a (#PCDATA)> ]>
+
+<clases>
+  <clase>
+    <pizarra></pizarra>
+    <profesor>
+      <nombre-p>Maxi</nombre-p>
+      <apellidos-p>Boada Martin</apellidos-p>
+    </profesor>
+    <alumno>
+      <nombre-a>Maximino</nombre-a>
+      <apellidos-a>Martinez</apellidos-a>
+    </alumno>
+    <alumno>
+      <nombre-a></nombre-a>
+      <apellidos-a></apellidos-a>
+    </alumno>
+  </clase>
+</clases>
