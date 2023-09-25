@@ -4,7 +4,7 @@
   <!ELEMENT banco (cuenta+, cliente+, cuenta_cliente)>
   <!ELEMENT cuenta (id-cuenta, saldo)>
   <!ELEMENT cliente (nombre, apellidos, id-cliente)>
-  <!ELEMENT cuenta_cliente (id-cc)>
+  <!ELEMENT cuenta_cliente EMPTY>
   <!ELEMENT id-cuenta (#PCDATA)>
   <!ELEMENT saldo (#PCDATA)>
   <!ELEMENT nombre (#PCDATA)>
@@ -29,7 +29,5 @@
     <id-cliente>1</id-cliente>
   </cliente>
 
-  <cuenta_cliente id-cuenta="1" id-cliente="1">
-    <id-cc></id-cc>
-  </cuenta_cliente>
+  <cuenta_cliente id-cuenta="1" id-cliente="1" />
 </banco>

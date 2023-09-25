@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE personas [
+  <!ELEMENT personas (persona+)>
+  <!ELEMENT persona (nombre, apellidos, nacimiento?, direccion+, (hombre | mujer))>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT nacimiento (#PCDATA)>
+  <!ELEMENT direccion (calle, poblacion, provincia, codigopostal?)>
+  <!ELEMENT hombre EMPTY>
+  <!ELEMENT mujer EMPTY>
+  <!ELEMENT calle (#PCDATA)>
+  <!ELEMENT poblacion (#PCDATA)>
+  <!ELEMENT provincia (#PCDATA)>
+  <!ELEMENT codigopostal (#PCDATA)>
+
+  <!ATTLIST nacimiento dia CDATA #REQUIRED>
+  <!ATTLIST nacimiento mes CDATA #REQUIRED>
+  <!ATTLIST nacimiento anyo CDATA #REQUIRED>
+]>
+
+<personas>
+
+  <persona>
+    <nombre></nombre>
+    <apellidos></apellidos>
+    <nacimiento dia="1" mes="10" anyo="2000"></nacimiento>
+    <direccion>
+      <calle></calle>
+      <poblacion></poblacion>
+      <provincia></provincia>
+      <codigopostal></codigopostal>
+    </direccion>
+    <hombre />
+  </persona>
+
+</personas>
