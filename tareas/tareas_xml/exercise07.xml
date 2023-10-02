@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE curso [
+  <!ELEMENT curso (modulo+, profesor+, alumno+)>
+  <!ELEMENT modulo (#PCDATA)>
+  <!ELEMENT profesor (nombre-p, apellidos-p)>
+  <!ELEMENT alumno (nombre-a, apellidos-a)>
+  <!ELEMENT nombre-p (#PCDATA)>
+  <!ELEMENT apellidos-p (#PCDATA)>
+  <!ELEMENT nombre-a (#PCDATA)>
+  <!ELEMENT apellidos-a (#PCDATA)>
+
+  <!ENTITY nn "Juan Luís de Todos Los Santos Ramón">
+  
+  <!ATTLIST profesor id-prof CDATA #REQUIRED>
+  <!ATTLIST alumno id-a CDATA #REQUIRED>
+]>
+
+
+<curso>
+  <modulo>Lenguaje de Marcas</modulo>
+  <profesor id-prof="1">
+    <nombre-p>&nn;</nombre-p>
+    <apellidos-p>a</apellidos-p>
+  </profesor>
+  <alumno id-a="1">
+    <nombre-a>a</nombre-a>
+    <apellidos-a>a</apellidos-a>
+  </alumno>
+</curso>
