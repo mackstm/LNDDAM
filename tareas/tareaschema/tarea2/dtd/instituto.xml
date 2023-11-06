@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE instituto SYSTEM "instituto.dtd">
+<?xml-model href="instituto.dtd" type="application/xml-dtd"?>
 
 <instituto>
     <clase grupo="Desarrollo de Aplicaciones Web" curso="1">

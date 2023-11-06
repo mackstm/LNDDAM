@@ -2,6 +2,34 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="instituto">
-        
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="clase" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="alumno" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"></xs:element>
+                                        <xs:element name="apellidos" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="sexo" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="H"></xs:enumeration>
+                                                <xs:enumeration value="M"></xs:enumeration>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="cial" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="grupo" type="xs:string" use="required"></xs:attribute>
+                        <xs:attribute name="curso" type="xs:int" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
     </xs:element>
 </xs:schema>
