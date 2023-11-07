@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <rss version = "2.0">
+    <channel>
+      <title>Canal RSS Maxi</title>
+      <link>avocadowithlemon.great-site.net</link>
+      <description>Noticias de actualidad</description>
+      <item>
+        <title>Noticias El Pais</title>
+        <link>https://elpais.com</link>
+        <description>Noticias El Pais</description>
+      </item>
+    </channel>
+  </rss>

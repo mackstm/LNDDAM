@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmls="http://www.w3.org/2005/Atom" xml:lang="es-es"><>
+  <title type="text">Mi canal de RSS en Atom</title>
+  <updated>2023/10/26T21:31:00</updated>
+  <link rel="self" type="application/atom+xml" href="avocadowithlemon.great-site.net"/>
+  <link rel="alternate" type="text/html" href="avocadowithlemon.great-site.net"/>
+  <id>avocadowithlemon.great-site.net</id>
+  <author>
+    <name>José Maximiliano Boada Martín</name>
+    <email>maxibapl@gmail.com</email>
+  </author>
+  <entry>
+    <title>Noticias El Pais</title>
+    <link rel="alternate" type="text/html" href="https://elpais.com"/>
+    <updated>2023/10/26T21:31:00</updated>
+    <id>https://elpais.com</id>
+    <author>
+      <name>José Maximiliano Boada Martín</name>
+      <email>maxibapl@gmail.com</email>
+    </author>
+    <summary>Noticias El Pais</summary>
+  </entry>
+</feed>
