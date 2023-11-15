@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="animals">
+  <xs:sequence>
+    <xs:element name="nombre" type="xs:string"></xs:element>
+    <xs:element name="edad" type="xs:int"></xs:element>
+    <xs:element name="raza"></xs:element>
+    <xs:element name="chip" minOccurs="0" maxOccurs="1">
+      <xs:simpleType>
+        <xs:restriction base="xs:boolean">
+          <xs:pattern value="true"></xs:pattern>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:element>
+  </xs:sequence>
+  <xs:attribute name="sexo">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="H|M"></xs:pattern>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="vacunado" use="optional">
+    <xs:simpleType>
+      <xs:restriction base="xs:boolean">
+        <xs:pattern value="true"></xs:pattern>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:complexType>
+
+  <xs:element name="clinicaveterinaria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Cliente" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="1"></xs:minLength>
+                    <xs:maxLength value="10"></xs:maxLength>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellidos" type="xs:string"></xs:element>
+              <xs:element name="animal" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:all>
+                      <xs:element name="perro" type="animals" minOccurs="0"></xs:element>
+                      <xs:element name="reptil" type="animals" minOccurs="0"></xs:element>
+                      <xs:element name="gato" type="animals" minOccurs="0"></xs:element>
+                    </xs:all>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="xs:int"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
