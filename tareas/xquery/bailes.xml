@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bailes>
+  <baile>
+    <nombre>Salsa</nombre>
+    <precio>66</precio>
+    <comienzo>01/02/2024</comienzo>
+    <fin>20/02/2024</fin>
+    <profesor>Juan Luis</profesor>
+    <sala>103</sala>
+    <plazas>15</plazas>
+  </baile>
+  <baile>
+    <nombre>AguAcAtAngo</nombre>
+    <precio>666666</precio>
+    <comienzo>01/02/2024</comienzo>
+    <fin>20/02/2024</fin>
+    <profesor>Je Suis Empalme</profesor>
+    <sala>103</sala>
+    <plazas>15</plazas>
+  </baile>
+  <baile>
+    <nombre>Forny</nombre>
+    <precio>6666</precio>
+    <comienzo>01/02/2024</comienzo>
+    <fin>20/02/2024</fin>
+    <profesor>Yo</profesor>
+    <sala>103</sala>
+    <plazas>15</plazas>
+  </baile>
+</bailes>
