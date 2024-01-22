@@ -1,7 +1,6 @@
 for $baile in doc("bailes.xml") //baile
-where $baile/nombre[contains(text(), "Lozano")]
+where $baile[precio/@moneda="euro" and sala = 1]
 return 
 <baile>
   <nombre>{$baile/nombre/text()}</nombre>
-  <precio>{$baile/precio/text()}</precio>
 </baile>

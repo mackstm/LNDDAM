@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <bailes>
-  <baile>
+  <baile id="1">
     <nombre>Salsa</nombre>
-    <precio>66</precio>
+    <precio moneda="dolar" cuota="trimestral">66</precio>
     <comienzo>01/02/2024</comienzo>
     <fin>20/02/2024</fin>
     <profesor>Juan Luis</profesor>
-    <sala>103</sala>
+    <sala>1</sala>
     <plazas>15</plazas>
   </baile>
-  <baile>
+  <baile id="2">
     <nombre>AguAcAtAngo</nombre>
-    <precio>666666</precio>
+    <precio moneda="euro" cuota="mensual">666666</precio>
     <comienzo>01/02/2024</comienzo>
     <fin>20/02/2024</fin>
     <profesor>Je Suis Empalme</profesor>
+    <sala>1</sala>
+    <plazas>15</plazas>
+  </baile>
+  <baile id="3">
+    <nombre>Forny</nombre>
+    <precio moneda="euro" cuota="trimestral">6666</precio>
+    <comienzo>01/02/2024</comienzo>
+    <fin>20/02/2024</fin>
+    <profesor>Yo</profesor>
     <sala>103</sala>
     <plazas>15</plazas>
   </baile>
-  <baile>
-    <nombre>Forny</nombre>
-    <precio>6666</precio>
+  <baile id="4">
+    <nombre>Fornypepe</nombre>
+    <precio moneda="dolar" cuota="trimestral">6666</precio>
+    <comienzo>01/02/2024</comienzo>
+    <fin>20/02/2024</fin>
+    <profesor>Yo</profesor>
+    <sala>103</sala>
+    <plazas>15</plazas>
+  </baile>
+  <baile id="5">
+    <nombre>Fornypapa</nombre>
+    <precio moneda="euro" cuota="mensual">6666</precio>
     <comienzo>01/02/2024</comienzo>
     <fin>20/02/2024</fin>
     <profesor>Yo</profesor>
