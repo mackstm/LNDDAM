@@ -2,6 +2,8 @@
 
 # Trabajo de investigación sobre Odoo
 
+<img src="img/odoo.png"/>
+
 ## Índice
 - [¿Qué es Odoo?](#index01)
 - [Historia resumida de Odoo](#index02)
@@ -20,13 +22,26 @@ En 2005 Odoo empezó con el nombre de TinyERP, con origen en Bélgica. Fue desar
 
 ## Módulo de operaciones <a name="index03"></a>
 
+Entre los módulos de operaciones se encuentran:
+- Módulo de inventario: Es tanto aplicación de inventario como sistema de gestión de almacén, e incluye una aplicación muy avanzada de lector de código de barras.
+- Módulo de recursos humanos: Este módulo ayuda con todo lo relacionado a recursos humanos, es decir, la gestión del personal de la empresa.
+- Módulo de compra: Ayuda a llevar un seguimiento de los acuerdos de compra y cotizaciones. Automatiza el proceso de reabastecimiento.
+- Módulo de contabilidad: Tiene desarrolladas diversas funciones, como el reconocimiento de facturas por inteligencia artificial o la sincronización con cuentas bancarias.
 
+Existen otros módulos de operaciones, como el de fabricación o el de proyectos.
 
 ## Módulo de ventas <a name="index04"></a>
 
+El módulo de ventas contiene:
+- Módulo de CRM: Permite el seguimiento de posibles clientes, la comunicación con ellos y la realización de informes.
+- Módulo de facturación: Gestiona contratos, crea facturas recurrentes y realiza varias operaciones relacionadas con la facturación de ventas. Puede también realizar informes relacionados a la facturación.
 
+Otros módulos existentes son los de puntos de venta (tienda, restaurante...), firma digital y alquiler.
 
 ## Módulo de sitio web <a name="index05"></a>
 
+Finalmente, de cara a los módulos de sitio web, existen:
+- Módulo de creación de sitio web: Como su nombre indica, permite la creación de páginas web. Tiene funciones de comercio electrónico, entre otros.
+- Módulo de chat en vivo: Permite chatear con clientes en directo. Esto está integrado directamente en la página web. Se pueden crear equipos de soporte y programar respuestas automáticas.
 
 </div>
