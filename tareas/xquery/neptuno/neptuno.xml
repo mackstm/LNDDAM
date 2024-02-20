@@ -4,10 +4,11 @@
   <articulos>
   <RefArticulo>10</RefArticulo>
   <ReferenciaProveedor>100</ReferenciaProveedor>
-  <NombreArticulo>huevos</NombreArticulo>
-  <NombreCategoria>alimentación</NombreCategoria>
+  <NombreArticulo>fanta</NombreArticulo>
+  <NombreCategoria>bebida</NombreCategoria>
   <PrecioUnidad>30</PrecioUnidad>
   <UnidadesExistencia>40</UnidadesExistencia>
+  <RefCliente>1</RefCliente>
   </articulos>
   <clientes>
   <RefCliente>1</RefCliente>
