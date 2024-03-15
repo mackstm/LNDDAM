@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:purple;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(102, 102, 41);
+}
+
+nav ul {
+    list-style: none;
+}
