@@ -1,0 +1,32 @@
+header, nav, main, aside, footer {
+    width: 80%;
+    height: 100px;
+    float: left;
+}
+
+header {
+    background-color: black;
+    color: white;
+    float: none;
+}
+
+nav {
+    background-color: aqua;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+aside {
+    background-color: orange;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+}
+
+nav, main, aside, footer {
+    border-style: solid;
+}
