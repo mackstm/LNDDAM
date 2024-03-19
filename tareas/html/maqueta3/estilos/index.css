@@ -1,58 +1,32 @@
 header {
     background-color: black;
     color: white;
-    width: 20%;
+    width: 100%;
     height: 80px;
 }
 
 nav {
     background-color: gray;
-    width: 80%;
+    width: 100%;
     height: 80px;
 }
 
-header, nav {
-    float: left;
-}
-
 main {
-    clear: left;
     background-color: aquamarine;
-    width: 100%;
-    height: 400px;
 }
 
-main h2 {
-    text-align: center;
+aside {
+    background-color: palegoldenrod;
 }
 
-main section {
-    background-color: white;
-    width: 80%;
-    height: 100px;
-    margin-left: 10%;
-}
-
-main article {
-    background-color: whitesmoke;
+main, aside, footer {
     float: left;
-    width: 20%;
-    height: 100px;
-    margin-top: 20px;
-    margin-left: 10%;
+    width: 50%;
+    height: 400px;
 }
 
 footer {
     background-color: cadetblue;
     width: 100%;
     height: 80px;
-}
-
-footer article {
-    background-color: blanchedalmond;
-    float: left;
-    width: 20%;
-    height: 40px;
-    margin-left: 10%;
-    margin-top: 20px;
 }
