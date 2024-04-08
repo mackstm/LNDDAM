@@ -1,0 +1,18 @@
+header iframe{
+    height: 180px;
+    width: 100%;
+}
+
+nav {
+    float: left;
+}
+
+nav iframe {
+    width: 200px;
+    height: 700px;
+}
+
+main iframe {
+    width: 89%;
+    height: 700px;
+}
