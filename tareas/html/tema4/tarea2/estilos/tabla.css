@@ -1,0 +1,10 @@
+table {
+    border-style: ridge;
+    border-width: 5px;
+    background-color: rgb(253, 231, 191);
+}
+
+tr:nth-of-type(1){
+    color: green;
+    background-color: orange;
+}

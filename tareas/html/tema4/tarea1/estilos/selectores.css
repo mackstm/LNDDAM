@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    border-style: dotted;
+    padding: 80px;
+    background-color: rgb(255, 255, 205);
+}
+
+h3 {
+    background-color: orange;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 1px;
+    font-size: small;
+}
+
+h2 {
+    color: green;
+    font-size: medium;
+    padding: 50px;
+}
+
+h4 {
+    background-color: gray;
+    font-size: small;
+}
+
+li {
+    color:cornflowerblue;
+}
+
+li p {
+    color: brown;
+    background-color: aquamarine;
+    text-indent: 50px;
+}
