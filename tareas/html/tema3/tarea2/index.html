@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1/4/2024</title>
+    <link rel="stylesheet" href="estilos/index.css">
+</head>
+<body>
+    <h3>José Maximiliano Boada Martín</h3>
+    <fieldset>
+        <legend>Datos del propietario</legend>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name"><br>
+            <label>Sexo: </label>
+            <input type="radio" id="hombre" name="sexo" value="Hombre" checked>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="Mujer">
+            <label for="mujer">Mujer</label>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos del vehículo</legend>
+        <form>
+            <label for="marca">Marca/modelo:</label>
+            <input type="text" name="marca" id="marca"><br>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" name="matricula" id="matricula"><br>
+            <label for="carac">Características:</label>
+            <select name="carac" id="carac" size="3" multiple>
+                <option value="util" selected>Utilitario</option>
+                <option value="todoter">Todo Terreno</option>
+                <option value="alta" selected>Alta gama</option>
+            </select><br>
+            <label>Otros datos:</label><br>
+            <input type="checkbox" name="frenos" id="frenos" checked>
+            <label for="frenos">Servofrenos</label>
+            <input type="checkbox" name="eleva" id="eleva" checked>
+            <label for="eleva">Elevalunas</label>
+            <input type="checkbox" name="remol" id="remol">
+            <label for="frenos">Remolque</label>
+        </form>
+    </fieldset>
+</body>
+</html>
