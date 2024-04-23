@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+#cabecera {
+
+    border-style: solid;
+    border-color: yellow;
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    text-align: left;
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+#cuerpo {
+    position: relative;
+    background-color: pink;
+}
+
+.caja {
+    background-color: gray;
+    border-style: solid;
+    border-color: blue;
+    width: 20%;
+    height: 100px;
+}
+
+.caja:nth-of-type(2) {
+    position: absolute;
+    left: 20.5%;
+    top: 0px;
+}
+
+.caja:nth-of-type(3) {
+    position: absolute;
+    left: 41%;
+    top: 0px;
+}
+
+.caja:nth-of-type(4) {
+    position: absolute;
+    left: 61.5%;
+    top: 0px;
+}
+
+.caja:nth-of-type(6) {
+    position: absolute;
+    left: calc(20.5% + 40px);
+    top: 66px;
+    z-index: 1;
+    opacity: 75%;
+    background-color: red;
+}
+
+.caja:nth-of-type(7) {
+    position: absolute;
+    left: 41%;
+    top: 106px;
+}
+
+.caja:nth-of-type(9) {
+    position: absolute;
+    left: 61.5%;
+    top: 106px;
+}
+
+.caja:nth-of-type(8) {
+    position: absolute;
+    opacity: 40%;
+    top: 40px;
+    right: 40px;
+    z-index: 1;
+    background-color: red;
+}
+
+#pie {
+    background-color: white;
+    border-style: dotted;
+    border-color: green;
+}
