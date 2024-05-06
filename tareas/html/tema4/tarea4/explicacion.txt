@@ -1,1 +1,1 @@
-La diferencia es que nth-of-type coge los elementos según su tipo, mientras que nth-child ignora el tipo y coge el elemento indicado de todos los hijos que hay
+La diferencia es que nth-of-type coge los elementos según su tipo, mientras que nth-child ignora el tipo y coge el elemento indicado de todos los hijos que hay+

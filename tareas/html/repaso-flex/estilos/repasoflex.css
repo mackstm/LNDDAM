@@ -1,0 +1,20 @@
+*, *::after {
+    content: '';
+    box-sizing: border-box;
+}
+
+.container {
+    height: 500px;
+    background-color: lightblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item {
+    background-color: blue;
+    margin: 10px;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex: 1 1 auto;
+}
