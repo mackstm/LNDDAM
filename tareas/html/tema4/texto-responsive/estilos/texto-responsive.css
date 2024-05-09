@@ -1,0 +1,41 @@
+.califDesktop {
+    background-color: rgb(80, 156, 70);
+    width: 100%;
+}
+
+.califMobile {
+    background-color: rgb(80, 156, 70);
+    border: 5px groove;
+    display: none;
+}
+
+.califMobile .row {
+    border: 1px solid;
+}
+
+.califMobile .row .col {
+    display: flex;
+    border: 1px ridge;
+}
+
+.califMobile .row .col .header, .califMobile .row .col .content {
+    padding: 10px;
+}
+
+.califMobile .row .col .header {
+    font-weight: bold;
+}
+
+.califMobile .row:nth-of-type(odd){
+    background-color: rgb(165, 19, 48);
+}
+
+@media (max-width: 800px) {
+    .califMobile {
+        display: block;
+    }
+
+    .califDesktop {
+        display: none;
+    }
+}
