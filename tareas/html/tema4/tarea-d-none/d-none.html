@@ -52,9 +52,16 @@
                 display: none;
             }
 
-            li:hover * {
-                display: list-item;
+            li:hover {
                 background-color: #39DE77;
+            }
+
+            li:hover > * {
+                display: block;
+            }
+
+            ol li, ul li{
+                display: list-item;
             }
 
         </style>
