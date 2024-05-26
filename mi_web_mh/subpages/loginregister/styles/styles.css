@@ -10,6 +10,7 @@ header {
     padding: 10px 0;
     text-align: center;
     animation: slide-in-top 1s ease-out;
+    position: sticky;
     top: 0px;
     z-index: 1;
     display: block;
@@ -27,6 +28,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    border-bottom: 1px solid #333;
 }
 
 nav ul li a {
@@ -47,44 +49,15 @@ main {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-
-
-section {
-    scroll-margin-top: 120px;
-    border-bottom: 2px solid #fff;
-    margin-bottom: 10px;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fade-in 1s forwards;
-}
-
-section p {
-    color: #fff;
-    text-align: justify;
-    text-indent: 5%;
-}
-
-section img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section h2 {
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    padding-bottom: 5px;
-    animation: slide-in-left 0.5s forwards;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 ul li {
+    color: #fff;
     padding: 5px 0;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #fff;
     opacity: 0;
     animation: fade-in-left 1s forwards;
 }
@@ -97,7 +70,18 @@ ul li:nth-child(odd) {
     animation-delay: 0.4s;
 }
 
+form {
+    color: #fff;
+}
 
+input[type=submit] {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    color: #333;
+    padding: 8px 16px;
+    cursor: pointer;
+}
 
 footer {
     background-color: #d6d6d6;

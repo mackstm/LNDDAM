@@ -3,6 +3,7 @@ body {
     background-color: #3e3e3e;
     margin: 0;
     padding: 0;
+    margin-bottom: 70px;
 }
 
 header {
@@ -27,6 +28,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    border-bottom: 1px solid #333;
 }
 
 nav ul li a {
@@ -41,7 +43,7 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: #333;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -51,14 +53,22 @@ main {
 
 section {
     scroll-margin-top: 120px;
-    border-bottom: 2px solid #fff;
     margin-bottom: 10px;
     opacity: 0;
     transform: translateY(20px);
     animation: fade-in 1s forwards;
 }
 
+section h2 {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    animation: slide-in-left 0.5s forwards;
+}
+
 section p {
+    margin-left: 15%;
+    margin-right: 15%;
     color: #fff;
     text-align: justify;
     text-indent: 5%;
@@ -70,13 +80,6 @@ section img {
     margin-right: auto;
 }
 
-section h2 {
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    padding-bottom: 5px;
-    animation: slide-in-left 0.5s forwards;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -84,7 +87,7 @@ ul {
 
 ul li {
     padding: 5px 0;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #fff;
     opacity: 0;
     animation: fade-in-left 1s forwards;
 }
@@ -96,8 +99,6 @@ ul li:nth-child(even) {
 ul li:nth-child(odd) {
     animation-delay: 0.4s;
 }
-
-
 
 footer {
     background-color: #d6d6d6;
